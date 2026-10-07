@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+models/*.tflite
+models/*.onnx
+data/
+.venv/
