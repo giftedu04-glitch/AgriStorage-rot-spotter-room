@@ -6,7 +6,7 @@ from rotspotter.queue_manager import QueueManager
 from rotspotter.env import EnvSensor
 
 def main():
-    print('AgriSafe Rot-Spotter (Edge/Offline)')
+    print('AgriStorage Room Rot-Spotter (Edge/Offline)')
     qm=QueueManager('data/queue.json'); det=EdgeDetector(); env=EnvSensor()
     while True:
         print('\n1) Add crate 2) List 3) Rotate 4) Env 5) Quit')
