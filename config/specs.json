@@ -1,0 +1,4 @@
+{
+  "tomatoes": {"temp_c":[12,15], "humidity_rh":[85,90]},
+  "display": {"recommended":["UL-listed industrial display", "NVIDIA Jetson compatible display"], "notes":"Use UL-certified components for powered enclosures"}
+}
