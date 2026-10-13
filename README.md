@@ -27,11 +27,7 @@ Fresh tomatoes are the most consumed ingredient in nearly every Cameroonian dish
 Simple LDR-based maximum light search (pan/tilt) with hysteresis, day/night detection, wind/stall protection. Runs offline on microcontroller.
 
 ## Room Auto-Regulation (Tomatoes-only)
-<<<<<<< HEAD
 Target ranges (tomatoes): ~12–15 °C, RH ~85–90% (green/mature varies). Control logic uses deadbands to avoid oscillation; priority on spoilage prevention.
-=======
-Target ranges (tomatoes): ~12�15 �C, RH ~85�90% (green/mature varies). Control logic uses deadbands to avoid oscillation; priority on spoilage prevention.
->>>>>>> 59f60f3 (Add system overview image [Image 1])
 
 ## Display & Monitoring
 Recommended credentialed/industrial options: UL-listed panel PCs/displays for safety, or NVIDIA Jetson ecosystem displays. Local UI shows queue, rot risk, env, panel position, power.
