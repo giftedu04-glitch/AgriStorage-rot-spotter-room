@@ -1,6 +1,6 @@
 
 ![System Overview](ww.png)
-[Image 1]
+
 # AgriStorage-Room
 Multi-modal edge-AI system for early post-harvest tomato spoilage detection with solar tracking, environmental auto-regulation, and offline monitoring. Runs fully on-device (no cloud dependency). However the project will extend to other perishable vegetables like cucumber, bell pepper, cabbage, and etc. To avoid crop waste that primarily affect the the farmers' livelihood, but also the environment. As Cameroon is also known to be a country suffering from food security issues.
 
@@ -10,11 +10,6 @@ Post-harvest losses remain a major challenge for rural communities in Cameroon. 
 Fresh tomatoes are the most consumed ingredient in nearly every Cameroonian dish, making them both economically and culturally important. Inspired by the need to reduce waste, improve shelf-life, and help rural farmers/producers store their harvest longer to sell at better prices, AgriStorage-Room was developed to bring affordable edge-AI technology to low-resource settings.
 
 ## Key Features
-<<<<<<< HEAD
-- Edge AI spoilage detection (TFLite/ONNX/OpenCV fallback) – fully offline
-=======
-- Edge AI spoilage detection (TFLite/ONNX/OpenCV fallback) � fully offline
->>>>>>> 59f60f3 (Add system overview image [Image 1])
 - Solar panel dual-axis tracking to locate highest light intensity (energy autonomy)
 - Auto-regulation for tomatoes-only storage (temp/humidity/Ventilation targets)
 - Display options (UL-listed/NVIDIA/industrial) for local room monitoring
