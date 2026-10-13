@@ -1,5 +1,8 @@
+
+![System Overview](ww.png)
+[Image 1]
 # AgriStorage-Room
-Multi-modal edge-AI system for early post-harvest tomato spoilage detection with solar tracking, environmental auto-regulation, and offline monitoring. Runs fully on-device (no cloud dependency).
+Multi-modal edge-AI system for early post-harvest tomato spoilage detection with solar tracking, environmental auto-regulation, and offline monitoring. Runs fully on-device (no cloud dependency). However the project will extend to other perishable vegetables like cucumber, bell pepper, cabbage, and etc. To avoid crop waste that primarily affect the the farmers' livelihood, but also the environment. As Cameroon is also known to be a country suffering from food security issues.
 
 ## Background & Motivation
 Post-harvest losses remain a major challenge for rural communities in Cameroon. Studies estimate that 30-40% of fresh tomatoes are wasted annually due to poor storage, limited cold-chain access, and lack of affordable spoilage detection in rural areas. This directly impacts market losses for rural business owners, reducing their ability to earn a stable income from their harvest.
@@ -7,7 +10,11 @@ Post-harvest losses remain a major challenge for rural communities in Cameroon. 
 Fresh tomatoes are the most consumed ingredient in nearly every Cameroonian dish, making them both economically and culturally important. Inspired by the need to reduce waste, improve shelf-life, and help rural farmers/producers store their harvest longer to sell at better prices, AgriStorage-Room was developed to bring affordable edge-AI technology to low-resource settings.
 
 ## Key Features
-- Edge AI spoilage detection (TFLite/ONNX/OpenCV fallback) – fully offline
+<<<<<<< HEAD
+- Edge AI spoilage detection (TFLite/ONNX/OpenCV fallback) â€“ fully offline
+=======
+- Edge AI spoilage detection (TFLite/ONNX/OpenCV fallback) ï¿½ fully offline
+>>>>>>> 59f60f3 (Add system overview image [Image 1])
 - Solar panel dual-axis tracking to locate highest light intensity (energy autonomy)
 - Auto-regulation for tomatoes-only storage (temp/humidity/Ventilation targets)
 - Display options (UL-listed/NVIDIA/industrial) for local room monitoring
@@ -25,7 +32,11 @@ Fresh tomatoes are the most consumed ingredient in nearly every Cameroonian dish
 Simple LDR-based maximum light search (pan/tilt) with hysteresis, day/night detection, wind/stall protection. Runs offline on microcontroller.
 
 ## Room Auto-Regulation (Tomatoes-only)
-Target ranges (tomatoes): ~12–15 °C, RH ~85–90% (green/mature varies). Control logic uses deadbands to avoid oscillation; priority on spoilage prevention.
+<<<<<<< HEAD
+Target ranges (tomatoes): ~12â€“15 Â°C, RH ~85â€“90% (green/mature varies). Control logic uses deadbands to avoid oscillation; priority on spoilage prevention.
+=======
+Target ranges (tomatoes): ~12ï¿½15 ï¿½C, RH ~85ï¿½90% (green/mature varies). Control logic uses deadbands to avoid oscillation; priority on spoilage prevention.
+>>>>>>> 59f60f3 (Add system overview image [Image 1])
 
 ## Display & Monitoring
 Recommended credentialed/industrial options: UL-listed panel PCs/displays for safety, or NVIDIA Jetson ecosystem displays. Local UI shows queue, rot risk, env, panel position, power.
